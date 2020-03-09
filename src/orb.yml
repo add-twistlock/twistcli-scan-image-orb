@@ -4,7 +4,9 @@ description: >
   This orb is a wrapper for the Twistlock twistcli scanning tool.
   To use this orb, you must have a licensed Twistlock installation
   and credentials for a user with the CI User role in the Twistlock Console.
-  For detailed usage information, see https://github.com/add-twistlock/twistcli-scan-image-orb
+display:
+  source_url: https://github.com/add-twistlock/twistcli-scan-image-orb
+  home_url: https://www.twistlock.com/
 examples:
   docker-build-save-load-scan:
     usage:
